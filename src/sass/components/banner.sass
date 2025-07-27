@@ -1,0 +1,90 @@
+.banner
+    background-color: $light-grey
+    
+    padding-top: 70px
+    padding-bottom: 70px
+    
+    &__wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        max-width: 1300px
+
+        margin: 0 auto
+
+    &__title
+        max-width: 670px
+        font-weight: 500
+
+    &__line
+        background-color: $light-grey-second
+
+        height: 2px
+        width: 360px
+
+        margin-top: 30px
+
+    &__text
+        font-size: 16px
+        font-weight: 400
+
+        max-width: 360px
+
+        margin-top: 15px
+
+    &__orange-button
+        display: flex
+        justify-content: center
+        align-items: center
+
+        margin-top: 20px
+
+        font-size: 20px
+        color: $white
+
+        cursor: pointer
+        transition: 300ms
+
+        @include tabLikeButton($padding: 25px 45px, $color: $orange, $border-radius: 80px)
+        
+        &:hover
+            background-color: $light-blue
+
+    &__orange-button-arrow
+        margin-left: 10px
+
+        @include arrow($dir: right-up, $width: 20px, $height: 2px, $bg: $white, $margin: 4px)
+
+    &__image-wrap
+        width: 400px
+        height: 400px
+
+        z-index: 2
+        position: relative
+
+    &__image-circle
+        width: 110%
+        min-width: 110%
+        height: 110%
+
+        border-radius: 50%
+
+        background-color: $light-grey-third
+
+        position: absolute
+        bottom: -5%
+        right: 0
+        left: -9%
+
+        z-index: 1
+
+    &__image
+        object-fit: cover
+
+        min-width: 100%
+        max-width: 100%
+        height: auto
+
+        position: relative
+        z-index: 2

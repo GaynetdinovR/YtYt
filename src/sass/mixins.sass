@@ -1,0 +1,45 @@
+@mixin arrow($dir, $width, $height, $bg, $margin)
+
+    width: $width
+    height: $height
+    background: $bg
+    border-radius: 5px
+    position: relative
+
+    &::after
+        top: calc($margin * -1)
+
+    &::before
+        bottom: calc($margin * -1)
+
+    &::after,
+    &::before
+        content: ''
+        width:  calc($width / 1.5)
+        height: $height
+        background: $bg
+        border-radius: 5px
+        right: -2px
+        position: absolute
+
+    &::after
+        transform: rotate(45deg)
+
+    &::before
+        transform: rotate(-45deg) 
+
+    @if $dir == down 
+
+        transform: rotate(90deg) 
+
+    @else if $dir == right-up
+
+        transform: rotate(-45deg)
+
+
+@mixin tabLikeButton($color, $padding, $border-radius)
+    padding: $padding
+    background-color: $color
+    border-radius: $border-radius
+    border: none
+    font-family: $font

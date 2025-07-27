@@ -1,0 +1,56 @@
+.help-and-methods
+    background-color: $white
+
+    border-radius: 80px
+    
+    padding-top: 90px
+    padding-bottom: 90px
+
+    &__block,
+    &__image-wrap
+        background-color: $light-grey
+        border-radius: 40px
+
+    &__wrap
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 1fr 1fr
+        grid-gap: 30px
+
+        max-width: 1300px
+
+        margin: 0 auto
+
+
+    &__image-wrap
+        display: flex
+        justify-content: center
+        align-items: center
+
+        padding: 40px 20px
+
+    &__image
+        max-width: 100%
+
+        width: 260px
+        height: 260px
+
+        object-fit: cover
+
+    &__block
+        grid-column: 2 span
+
+        padding: 50px 90px
+
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        
+    &__block-text
+        line-height: 30px
+
+        margin-top: 20px
+        
+    &__block-title
+        align-self: flex-start

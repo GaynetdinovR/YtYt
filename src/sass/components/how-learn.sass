@@ -1,0 +1,198 @@
+.how-learn
+    background-color: $light-grey
+
+    padding-top: 55px
+    padding-bottom: 90px
+
+    &__wrap
+        max-width: 1300px
+
+        margin: 0 auto
+
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+
+    &__title
+        text-align: center
+
+    &__text
+        max-width: 650px
+
+        text-align: center
+
+        margin-top: 25px
+
+    &__benefits
+        margin-top: 30px
+
+        position: relative
+
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 1fr
+        grid-gap: 110px
+
+        padding: 55px
+
+        background-color: $white
+
+        border-radius: 40px
+
+    &__benefit
+        position: relative
+        
+        max-width: 280px
+        height: 100%
+
+        display: flex
+        justify-content: start
+        align-items: start
+        flex-direction: column
+
+    &__benefit-number
+        font-size: 75px
+        font-weight: 700
+        color: $light-blue
+
+    &__benefit-title
+        margin-top: 20px
+
+    &__benefit-text
+        margin-top: 20px
+
+        color: $black
+        line-height: 24px
+        font-weight: 400
+
+    &__let-start
+        padding: 12px 30px 12px 12px
+        margin-top: 25px
+
+        max-width: 540px
+
+        background-color: $white
+
+        border-radius: 110px
+
+        display: flex
+        justify-content: center
+        align-items: center
+
+    &__button
+        display: flex
+        justify-content: center
+        align-items: center
+
+        color: $white
+        font-weight: 400
+        font-family: $font
+
+        cursor: pointer
+        transition: 300ms
+
+        margin-right: 25px
+
+        @include tabLikeButton($color: $orange,$padding: 25px 50px, $border-radius: 80px)
+
+        &:hover
+            background-color: $light-blue
+
+    &__button-arrow
+        margin-left: 10px
+        @include arrow($width: 20px, $height: 2px, $bg: $white, $dir: right-up, $margin: 4px)
+
+    &__text-down
+        max-width: 210px
+        font-weight: 600
+        color: $black
+
+    &__video
+        margin-top: 30px
+
+        width: 760px
+        height: 440px
+
+        position: relative
+
+        &-inner
+            position: absolute
+
+            width: 100%
+            height: 100%
+
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+
+        &-preview
+            position: absolute
+            z-index: 1
+            
+            max-width: 100%
+            height: auto
+
+        &-mask
+            position: absolute
+
+            width: 75%
+            height: 85%
+
+            z-index: 2
+
+            bottom: 45px
+
+            border-radius: 20px
+
+            background-color: rgba($black, 0.7)
+
+        &-button
+            position: relative
+            z-index: 3
+
+            display: flex
+            justify-content: center
+            align-items: center
+
+            background-color: $orange
+
+            border-radius: 50%
+            outline: 20px solid rgba($orange, 0.3)
+            border: none
+
+            margin: 20px
+            padding: 35px
+
+        &-button-play
+
+        &-text
+            position: relative
+            z-index: 3
+
+            margin-top: 10px
+            color: $white
+
+
+.how-learn__benefit:nth-child(1)
+    &::after
+        right: -55px
+
+.how-learn__benefit:nth-child(3)
+    &::after
+        left: -55px
+
+.how-learn__benefit:nth-child(3),
+.how-learn__benefit:nth-child(1)
+    &::after
+        content: ''
+
+        height: 100%
+        width: 2px
+
+        position: absolute
+        top: 0
+        bottom: 0
+
+        background-color: rgba($black, 0.05)

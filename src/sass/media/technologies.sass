@@ -1,0 +1,61 @@
+@media (min-width: $tablet-size-l2) and (max-width: $desktop-size-m1)
+    .technologies__wrap
+        padding: 10px 30px
+
+@media (min-width: $tablet-size-l2) and (max-width: $desktop-size-m3)
+    .technologies__tags 
+        max-width: 310px
+
+@media screen and (max-width: $desktop-size-s2)
+    .technologies__tags 
+        margin-left: 10px
+
+@media screen and (max-width: $tablet-size-l2)
+    .technologies__img-wrap
+        display: none
+
+    .technologies__wrap
+        padding: 30px
+
+@media screen and (max-width: $tablet-size-s1)
+    .technologies__tags 
+        max-width: 310px
+
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: repeat(5, 1fr) 2fr
+        grid-gap: 10px
+
+    .technologies__tag
+        width: 100%
+
+        margin: 0
+
+    .technologies__tag_blue,
+    .technologies__tag_green,
+    .technologies__tag_light-blue,
+    .technologies__text
+        grid-column: span 2
+
+    .technologies 
+        padding-top: 40px
+        padding-bottom: 20px
+
+@media screen and (max-width: $phone-size-l2)
+    .technologies__title
+        text-align: center
+    .technologies__text
+        text-align: center
+
+@media screen and (max-width: $phone-size-m1)
+    .technologies__tag
+        font-size: 14px
+        
+    .technologies__text
+        font-size: 18px
+
+    .technologies__wrap
+        padding: 15px
+    
+    .technologies__tags 
+        grid-template-rows: 1.5fr 1.1fr 1.2fr 1.2fr 1fr

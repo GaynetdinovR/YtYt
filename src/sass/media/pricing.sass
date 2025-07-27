@@ -1,0 +1,65 @@
+@media screen and (max-width: $desktop-size-m2)
+    .pricing__info-block-text 
+        max-width: 250px
+        min-width: 150px
+
+    .pricing__info
+        grid-template-columns: 1fr 0.7fr 1fr
+
+@media screen and (max-width: $desktop-size-m3)
+    .pricing__table-wrap
+        padding: 20px 30px
+
+    .pricing__table
+        & th:nth-child(1),
+        & td:nth-child(1)
+            min-width: 400px
+
+        & th:nth-child(2),
+        & td:nth-child(2)
+            min-width: 170px
+
+        & th:nth-child(3),
+        & td:nth-child(3)
+            min-width: 220px
+
+@media screen and (max-width: $desktop-size-s2)
+    .pricing__info
+        grid-template-columns: 1fr 
+        grid-template-rows: 1fr 1fr 1fr
+
+        grid-gap: 20px
+
+    .pricing__info-block
+        flex-direction: column
+
+    .pricing__info-block-img
+        margin: 0 0 20px 0
+
+    .pricing__info-block-text
+        max-width: 70%
+        text-align: center
+
+@media screen and (max-width: $tablet-size-l2)
+    .pricing__table
+        & td,
+        & th
+            font-size: 14px
+
+        & th:nth-child(1),
+        & td:nth-child(1)
+            min-width: 250px
+
+        & th:nth-child(2),
+        & td:nth-child(2)
+            min-width: 120px
+
+        & th:nth-child(3),
+        & td:nth-child(3)
+            min-width: 150px
+
+@media screen and (max-width:$tablet-size-s2)
+    .pricing__table-wrap,
+    .pricing__postscript
+        display: none
+    
