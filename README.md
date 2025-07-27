@@ -17,10 +17,10 @@
 
 **Все технологии и препроцессоры, которые были использованы в этом проекте:**
 
-[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](#fibo)
-[![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#fibo)
+[![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](#YtYt)
+[![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#YtYt)
 [![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)](https://sass-lang.com/)
-[![ESLint](https://img.shields.io/badge/ESLint-darkgreen?style=for-the-badge&logo=eslint&logoColor=white)](https://eslint.org/)
+[![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)](#YtYt)
 
 ## Установка и запуск
 <a id="getting_started"></a>
