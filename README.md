@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/status-done-green)
 ![Static Badge](https://img.shields.io/badge/done-100%25-green)
-![Static Badge](https://img.shields.io/badge/petproject-purple)
+![Static Badge](https://img.shields.io/badge/layout-purple)
 
 **YtYt — сайт-визитка для онлайн-платформы по обучению программированию**
 
