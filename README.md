@@ -20,10 +20,9 @@
 [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](#YtYt)
 [![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](#YtYt)
 [![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)](https://sass-lang.com/)
-<<<<<<< HEAD
+
 =======
 [![Gulp](https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white)](#YtYt)
->>>>>>> fcf8b9e268f0e3b34de3584f350d48670ac97a54
 
 ## Установка и запуск
 <a id="getting_started"></a>
